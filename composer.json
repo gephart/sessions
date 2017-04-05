@@ -1,0 +1,23 @@
+{
+  "name": "gephart/sessions",
+  "type": "library",
+  "description": "Gephart Sessions Component",
+  "keywords": [],
+  "homepage": "https://github.com/gephart/sessions",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michal Katuščák",
+      "email": "michal@katuscak.cz"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": { "Gephart\\Sessions\\": "src/" },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  }
+}
