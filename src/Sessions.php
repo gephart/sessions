@@ -7,7 +7,7 @@ namespace Gephart\Sessions;
  *
  * @package Gephart\Sessions
  * @author Michal Katuščák <michal@katuscak.cz>
- * @since 0.2
+ * @since 0.3
  */
 final class Sessions
 {
@@ -32,7 +32,7 @@ final class Sessions
 
     /**
      * @since 0.4 Return $this
-     * @since 0.2
+     * @since 0.3
      *
      * @param string $key
      * @param $value
