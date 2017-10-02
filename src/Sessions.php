@@ -44,5 +44,4 @@ final class Sessions
 
         return $this;
     }
-
 }
